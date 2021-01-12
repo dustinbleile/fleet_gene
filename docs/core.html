@@ -61,6 +61,74 @@ nb_path: "00_core.ipynb"
 </div>
     {% endraw %}
 
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>nbdev_test_nbs
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>nbdev_build_lib
+<span class="o">!</span>nbdev_build_docs
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Converted 00_core.ipynb.
+Converted index.ipynb.
+testing /home/dustin/fleet_gene/00_core.ipynb
+Error in /home/dustin/fleet_gene/00_core.ipynb:
+preprocess() missing 1 required positional argument: &#39;resources&#39;
+testing /home/dustin/fleet_gene/index.ipynb
+Error in /home/dustin/fleet_gene/index.ipynb:
+preprocess() missing 1 required positional argument: &#39;resources&#39;
+Traceback (most recent call last):
+  File &#34;/home/dustin/miniconda3/envs/fastai/bin/nbdev_test_nbs&#34;, line 10, in &lt;module&gt;
+    sys.exit(nbdev_test_nbs())
+  File &#34;/home/dustin/miniconda3/envs/fastai/lib/python3.7/site-packages/fastcore/script.py&#34;, line 105, in _f
+    tfunc(**merge(args, args_from_prog(func, xtra)))
+  File &#34;/home/dustin/miniconda3/envs/fastai/lib/python3.7/site-packages/nbdev/test.py&#34;, line 121, in nbdev_test_nbs
+    raise Exception(msg + &#39;\n&#39;.join([f.name for p,f in zip(passed,files) if not p]))
+Exception: The following notebooks failed:
+00_core.ipynb
+index.ipynb
+converting: /home/dustin/fleet_gene/00_core.ipynb
+converting /home/dustin/fleet_gene/index.ipynb to README.md
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
 </div>
  
 
