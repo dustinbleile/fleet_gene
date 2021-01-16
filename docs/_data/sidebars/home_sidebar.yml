@@ -12,6 +12,9 @@ entries:
     - output: web,pdf
       title: module name here
       url: core.html
+    - output: web,pdf
+      title: GTEx v7 - Download and Basic library preparation
+      url: GTEx.html
     output: web
     title: fleet_gene
   output: web

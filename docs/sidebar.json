@@ -1,6 +1,7 @@
 {
   "fleet_gene": {
     "Overview": "/",
-    "module name here": "core.html"
+    "module name here": "core.html",
+    "GTEx v7 - Download and Basic library preparation": "GTEx.html"
   }
 }
