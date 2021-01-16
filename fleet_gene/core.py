@@ -3,7 +3,6 @@
 __all__ = ['hello_world']
 
 # Cell
-
 def hello_world():
     """Simple hello world test"""
     # "only 'conda -c fastai' with all updates channel install worked.
