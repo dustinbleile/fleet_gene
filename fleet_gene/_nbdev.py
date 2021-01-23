@@ -2,9 +2,17 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"hello_world": "00_core.ipynb"}
+index = {"hello_world": "00_core.ipynb",
+         "GTEX_URL": "01_GTEx.ipynb",
+         "GTEXV8_TPM": "01_GTEx.ipynb",
+         "GTEXV8_TPM_MED": "01_GTEx.ipynb",
+         "GTEX_PHENO_DS": "01_GTEx.ipynb",
+         "GTEX_PHENO_DD": "01_GTEx.ipynb",
+         "GTEX_SAMPLE_DS": "01_GTEx.ipynb",
+         "GTEX_SAMPLE_DD": "01_GTEx.ipynb"}
 
-modules = ["core.py"]
+modules = ["core.py",
+           "gtex.py"]
 
 doc_url = "https://dustinbleile.github.io/fleet_gene/"
 

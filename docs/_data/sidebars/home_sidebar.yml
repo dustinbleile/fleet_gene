@@ -15,6 +15,12 @@ entries:
     - output: web,pdf
       title: GTEx v7 - Download and Basic library preparation
       url: GTEx.html
+    - output: web,pdf
+      title: Gene Lists
+      url: Gene_lists.html
+    - output: web,pdf
+      title: Title
+      url: G8_test.html
     output: web
     title: fleet_gene
   output: web
