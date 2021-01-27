@@ -11,7 +11,10 @@ index = {"hello_world": "00_core.ipynb",
          "GTEX_SAMPLE_DS": "01_GTEx.ipynb",
          "GTEX_SAMPLE_DD": "01_GTEx.ipynb",
          "script_dir": "01_GTEx.ipynb",
-         "cache_dir": "01_GTEx.ipynb"}
+         "cache_dir": "01_GTEx.ipynb",
+         "GTEX_GENES_ENSG": "01_GTEx.ipynb",
+         "GTEX_GENES_SYMBOL": "01_GTEx.ipynb",
+         "GTEX_GENES_SYMBOL_DUPLICATES": "01_GTEx.ipynb"}
 
 modules = ["core.py",
            "gtex.py"]
