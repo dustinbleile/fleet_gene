@@ -19,8 +19,8 @@ entries:
       title: Gene Lists
       url: Gene_lists.html
     - output: web,pdf
-      title: Title
-      url: G8_test.html
+      title: Decision Tree
+      url: G8_tissue.html
     output: web
     title: fleet_gene
   output: web
