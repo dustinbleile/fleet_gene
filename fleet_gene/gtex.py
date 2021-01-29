@@ -53,7 +53,7 @@ for url in [GTEXV8_TPM_MED, GTEXV8_TPM, GTEX_PHENO_DS, GTEX_PHENO_DD, GTEX_SAMPL
 # Cell
 
 # just export the gene list constants for speed later
-import pickle
+import os, pickle
 GTEX_GENES_ENSG = pickle.load(open(os.path.join(cache_dir, "GTEX_GENES_ENSG.pkl"), "rb"))
 GTEX_GENES_SYMBOL = pickle.load(open(os.path.join(cache_dir, "GTEX_GENES_SYMBOL.pkl"), "rb"))
 GTEX_GENES_SYMBOL_DUPLICATES = pickle.load(open(os.path.join(cache_dir, "GTEX_GENES_SYMBOL_DUPLICATES.pkl"), "rb"))

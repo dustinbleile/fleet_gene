@@ -13,14 +13,11 @@ entries:
       title: module name here
       url: core.html
     - output: web,pdf
-      title: GTEx v7 - Download and Basic library preparation
+      title: GTEx v8 - Download and Basic library preparation
       url: GTEx.html
     - output: web,pdf
-      title: Gene Lists
-      url: Gene_lists.html
-    - output: web,pdf
-      title: Decision Tree
-      url: G8_tissue.html
+      title: Introduction
+      url: GTEX_tissue_classify_ai.html
     output: web
     title: fleet_gene
   output: web

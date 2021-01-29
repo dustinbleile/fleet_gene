@@ -2,8 +2,7 @@
   "fleet_gene": {
     "Overview": "/",
     "module name here": "core.html",
-    "GTEx v7 - Download and Basic library preparation": "GTEx.html",
-    "Gene Lists": "Gene_lists.html",
-    "Decision Tree": "G8_tissue.html"
+    "GTEx v8 - Download and Basic library preparation": "GTEx.html",
+    "Introduction": "GTEX_tissue_classify_ai.html"
   }
 }
