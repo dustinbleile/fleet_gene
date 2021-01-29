@@ -1,15 +1,28 @@
-# Project name here
-> Summary description here.
+# fleet_gene
+
 
 
 This file will become your README and also the index of your documentation.
 
 ## Install
 
-`pip install fleet_gene`
+Usually best to install into a local virtual environment.
+
+`python -m venv .venv`
+
+Activate the virtual environment:
+
+`source .venv/bin/activate`
+
+Run the pip installs
+
+`pip install -U pip setuptools wheel; pip install -U -e. `
+
+
+Activate the notebooks with:
+
+`jupter notebook`
 
 ## How to use
 
-Fill me in please! Don't forget code examples:
-
-`hello_world`
+See GTEX_tissue_classify_ai.ipynb
