@@ -1,10 +1,8 @@
 {
-  "Notebook": {
-    "Export to modules": "/export",
-    "Convert to html": "/export2html",
-    "Show doc": "/showdoc",
-    "Test functions": "/test",
-    "Core functions": "/core",
-    "Command line functions": "/cli"
+  "fleet_gene": {
+    "Overview": "/",
+    "module name here": "core.html",
+    "GTEx v8 - Download and Basic library preparation": "GTEx.html",
+    "Introduction": "GTEX_tissue_classify_ai.html"
   }
 }
